@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  antman:
+    build: ./
+    image: antman
+    container_name: antman_container
+    network_mode: bridge 
